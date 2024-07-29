@@ -6,4 +6,5 @@ jobs:
   demo-job:
     runs-on: ubuntu-latest
     steps:
-      - uses: AndriiChyrva/dockerizedjs-action@v1.0
+      - uses: MarkTurney/d-checkout@v1.0.41
+      # - uses: AndriiChyrva/dockerizedjs-action@v1.0
