@@ -13,6 +13,6 @@ jobs:
         run: |
           ls -la
       - id: run_action
-        uses: AndriiChyrva/d-checkout@v1.0.1
+        uses: AndriiChyrva/d-checkout@v1.0.2
       #- uses: MarkTurney/d-checkout@v1.0.0
       #- uses: AndriiChyrva/dockerizedjs-action@v1.0
