@@ -17,7 +17,7 @@ jobs:
       #     cd /home/runner/
       #     ls -la
       - id: add_problem_matcher
-        run: echo "::add-matcher::problem-matcher.json"
+        run: echo "::add-matcher::/action/dist/problem-matcher.json"
       - id: run_action
         uses: AndriiChyrva/d-checkout@v1.0.18
       #- uses: MarkTurney/d-checkout@v1.0.0
