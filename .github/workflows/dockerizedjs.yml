@@ -6,19 +6,9 @@ jobs:
   dockerizedjs-job:
     runs-on: ubuntu-latest
     steps:
-      # - id: run_pwd
-      #   run: |
-      #     pwd
-      # - id: run_ls
-      #   run: |
-      #     ls -la
-      # - id: run_cd
-      #   run: |
-      #     cd /home/runner/
-      #     ls -la
-      - id: add_problem_matcher
-        run: echo "::add-matcher::/action/dist/problem-matcher.json"
+      # - id: add_problem_matcher
+        # run: echo "::add-matcher::/action/dist/problem-matcher.json"
       - id: run_action
         uses: AndriiChyrva/d-checkout@v1.0.18
-      #- uses: MarkTurney/d-checkout@v1.0.0
-      #- uses: AndriiChyrva/dockerizedjs-action@v1.0
+      # - uses: MarkTurney/d-checkout@v1.0.0
+      # - uses: AndriiChyrva/dockerizedjs-action@v1.0
