@@ -17,6 +17,6 @@ jobs:
       #     cd /home/runner/
       #     ls -la
       - id: run_action
-        uses: AndriiChyrva/d-checkout@v1.0.13
+        uses: AndriiChyrva/d-checkout@v1.0.14
       #- uses: MarkTurney/d-checkout@v1.0.0
       #- uses: AndriiChyrva/dockerizedjs-action@v1.0
