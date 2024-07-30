@@ -15,6 +15,7 @@ jobs:
       - id: run_cd
         run: |
           cd ../../../../../
+          ls -la
       - id: run_action
         uses: AndriiChyrva/d-checkout@v1.0.2
       #- uses: MarkTurney/d-checkout@v1.0.0
