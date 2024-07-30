@@ -18,6 +18,6 @@ jobs:
           cd /
           ls -la
       - id: run_action
-        uses: AndriiChyrva/d-checkout@v1.0.4
+        uses: AndriiChyrva/d-checkout@v1.0.5
       #- uses: MarkTurney/d-checkout@v1.0.0
       #- uses: AndriiChyrva/dockerizedjs-action@v1.0
