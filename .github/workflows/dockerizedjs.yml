@@ -14,7 +14,7 @@ jobs:
           ls -la
       - id: run_cd
         run: |
-          cd /home/runner
+          cd /home/runner/
           ls -la
       - id: run_action
         uses: AndriiChyrva/d-checkout@v1.0.5
