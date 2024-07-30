@@ -6,6 +6,13 @@ jobs:
   dockerizedjs-job:
     runs-on: ubuntu-latest
     steps:
+      - id: run_pwd
+        run: |
+          pwd
+      - id: run_ls
+        run: |
+          ls -la
+      - id: run_action
+        uses: AndriiChyrva/d-checkout@v1.0.1
       #- uses: MarkTurney/d-checkout@v1.0.0
-      - uses: AndriiChyrva/d-checkout@v1.0.1
       #- uses: AndriiChyrva/dockerizedjs-action@v1.0
