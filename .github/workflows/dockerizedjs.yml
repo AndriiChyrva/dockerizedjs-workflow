@@ -7,8 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # - id: add_problem_matcher
-        # run: echo "::add-matcher::/action/dist/problem-matcher.json"
+      # run: echo "::add-matcher::/action/dist/problem-matcher.json"
       - id: run_action
-        uses: AndriiChyrva/d-checkout@v1.0.20
+        uses: AndriiChyrva/d-checkout@v1.0.21
       # - uses: MarkTurney/d-checkout@v1.0.0
       # - uses: AndriiChyrva/dockerizedjs-action@v1.0
