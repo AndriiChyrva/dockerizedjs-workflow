@@ -10,4 +10,4 @@ jobs:
         run: "echo ::add-matcher::/problem-matcher.json"
         # run: "echo ::add-matcher::./../../../../../action/dist/problem-matcher.json"
       - id: run_action
-        uses: AndriiChyrva/d-checkout@v1.0.28
+        uses: AndriiChyrva/d-checkout@v1.0.29
