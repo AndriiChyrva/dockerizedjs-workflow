@@ -9,6 +9,6 @@ jobs:
       # - id: add_problem_matcher
       # run: echo "::add-matcher::/action/dist/problem-matcher.json"
       - id: run_action
-        uses: AndriiChyrva/d-checkout@v1.0.21
+        uses: AndriiChyrva/d-checkout@v1.0.22
       # - uses: MarkTurney/d-checkout@v1.0.0
       # - uses: AndriiChyrva/dockerizedjs-action@v1.0
