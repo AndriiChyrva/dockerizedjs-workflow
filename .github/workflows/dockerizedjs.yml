@@ -6,7 +6,5 @@ jobs:
   dockerizedjs-job:
     runs-on: ubuntu-latest
     steps:
-      - id: add_problem_matcher
-        run: "echo ::add-matcher::/home/action/dist/problem-matcher.json"
       - id: run_action
-        uses: AndriiChyrva/d-checkout@v1.0.63
+        uses: AndriiChyrva/d-checkout@v1.0.64
