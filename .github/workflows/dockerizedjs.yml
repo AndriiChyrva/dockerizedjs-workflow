@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - id: run_action
-        uses: AndriiChyrva/d-checkout@v1.0.71
+        uses: AndriiChyrva/d-checkout@v1.0.72
