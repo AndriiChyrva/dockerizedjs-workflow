@@ -7,5 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - id: run_action
-        uses: AndriiChyrva/annotations-action@v1.0.30
-        # uses: AndriiChyrva/d-checkout@v1.0.96
+        uses: AndriiChyrva/problem-matcher-action@v1.0.0
+        # uses: AndriiChyrva/annotations-action@v1.0.30
